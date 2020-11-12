@@ -9,5 +9,6 @@
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png" },
+	"content_security_policy": "'hash-value' 'sha256-BLcCAcKjaQFBjIDqW0a0/Ewax7AHAmQuFhC3hKuEDdE'",
 	"manifest_version": 2
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Hi Chr1s</title>
+    <link rel="stylesheet" href="tailwind.css">
     <style>
         body, html {
   height: 100%;
@@ -21,6 +22,19 @@
 }
     </style>
 </head>
-<body class="bg">
+<body onload="typeWriter()" class="bg">
+  <h1 class="text-6xl text-center" id="typing"></h1>
 </body>
+<script>
+var speed = 200;
+var txt = `Hello Chr1s`;
+var i;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typing").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 </html>
