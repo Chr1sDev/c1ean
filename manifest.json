@@ -1,6 +1,6 @@
 {
 	"name": "c1ean",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Custom New Tab",
 	"chrome_url_overrides" : {
 		"newtab": "index.html"
@@ -9,6 +9,5 @@
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
 		"128": "icons/icon128.png" },
-	"content_security_policy": "'hash-value' 'sha256-BLcCAcKjaQFBjIDqW0a0/Ewax7AHAmQuFhC3hKuEDdE'",
 	"manifest_version": 2
 }
